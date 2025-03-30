@@ -1,0 +1,47 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{something}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=42c4008ca84b0b48a373408794d286d1}{%
+           family={q},
+           familyi={q\bibinitperiod},
+           prefix={susie},
+           prefixi={s\bibinitperiod}}}%
+      }
+      \strng{namehash}{42c4008ca84b0b48a373408794d286d1}
+      \strng{fullhash}{42c4008ca84b0b48a373408794d286d1}
+      \strng{fullhashraw}{42c4008ca84b0b48a373408794d286d1}
+      \strng{bibnamehash}{42c4008ca84b0b48a373408794d286d1}
+      \strng{authorbibnamehash}{42c4008ca84b0b48a373408794d286d1}
+      \strng{authornamehash}{42c4008ca84b0b48a373408794d286d1}
+      \strng{authorfullhash}{42c4008ca84b0b48a373408794d286d1}
+      \strng{authorfullhashraw}{42c4008ca84b0b48a373408794d286d1}
+      \field{sortinit}{q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{a book that does not exist}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

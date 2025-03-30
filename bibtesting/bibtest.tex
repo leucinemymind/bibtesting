@@ -1,0 +1,21 @@
+% testing biblatex
+
+\documentclass{article}
+\usepackage[backend=biber]{biblatex}
+\addbibresource{references.bib}
+
+\begin{document}
+
+biblatex test \parencite{something}.
+
+\begin{verbatim}
+cd filepath
+pdflatex (no ext)
+biber
+pdflatex
+pdflatex
+\end{verbatim}
+
+\printbibliography
+
+\end{document}
